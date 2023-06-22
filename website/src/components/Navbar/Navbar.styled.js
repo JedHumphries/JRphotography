@@ -1,30 +1,49 @@
 import styled from 'styled-components'
+import { Link as LinkRouter } from 'react-router-dom'
+import { Link as LinkScroll } from 'react-scroll'
 
 export const Nav = styled.nav`
 background-color: black;
-height: 80px;
+height: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+/* margin-top: -80px; */
 /* top: 0; */
 position: sticky;
+z-index: 10;
+
+@media screen and (max-width: 960px){
+    transition: 0.8s all ease;
+}
 `
 
 export const NavbarContainer = styled.div`
 display: flex;
 justify-content: space-between;
-height: 80px;
+height: 90px;
 width: 100%;
+z-index: 1;
+width: 100%;
+padding: 0 24px;
+max-width: 1100px;
 `
 
-export const NavLogo = styled.div`
-background-color: blue;
+export const NavLogo = styled(LinkRouter)`
+display: flex;
+align-items: center;
+text-decoration: none;
+/* background-color: blue; */
 color: white;
 cursor: pointer;
 padding: 25px;
 justify-self: flex-start;
 `
 
-export const HamMenu = styled.div`
+export const HamburgerMenu = styled.div`
 display: none;
-padding: 15px;
+padding: 25px;
 
 @media screen and (max-width: 768px) {
     display:block;
@@ -50,10 +69,10 @@ text-align: center;
 `
 
 export const NavItem = styled.li`
-height: 80px;
+height: 90px;
 `
 
-export const NavLinks = styled.div`
+export const NavLinks = styled(LinkScroll)`
 display: flex;
 align-items: center;
 justify-content: center;
@@ -61,10 +80,10 @@ color: white;
 cursor: pointer;
 padding: 16px;
 height: 100%;
-background-color: blue;
+/* background-color: blue; */
 height: 100%;
 
-/* &.active {
-    border-bottom: 3px solid red;
-} */
+&.active {
+    border-bottom: 3px solid #EAD29C;
+}
 `

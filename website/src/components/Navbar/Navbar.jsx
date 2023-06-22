@@ -1,34 +1,34 @@
 import React from 'react'
-import { GiHamburgerMenu } from "react-icons/gi";
+import { FaBars } from "react-icons/fa";
 import { Nav, 
   NavLogo, 
   NavbarContainer, 
   NavMenu, 
   NavItem, 
   NavLinks,
-  HamMenu } from './Navbar.styled'
+  HamburgerMenu } from './Navbar.styled'
 
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo>Logo</NavLogo>
-          <HamMenu>
-            <GiHamburgerMenu size="1.5em"/>
-          </HamMenu>
+          <NavLogo to='/'>Logo</NavLogo>
+          <HamburgerMenu>
+            <FaBars />
+          </HamburgerMenu>
           <NavMenu>
             <NavItem>
-              <NavLinks>Projects</NavLinks>
+              <NavLinks to='projects'>Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks>Work</NavLinks>
+              <NavLinks to='gallery'>Gallery</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks>About</NavLinks>
+              <NavLinks to='about'>About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks>Contact</NavLinks>
+              <NavLinks to='contact'>Contact</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>
