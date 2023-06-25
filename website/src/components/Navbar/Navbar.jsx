@@ -1,21 +1,25 @@
 import React from 'react'
-import { FaBars } from "react-icons/fa";
 import { Nav, 
   NavLogo, 
   NavbarContainer, 
   NavMenu, 
   NavItem, 
   NavLinks,
-  HamburgerMenu } from './Navbar.styled'
+  HamburgerMenu,
+  Bars } from './Navbar.styled'
+import logo2 from './images/logo2.jpg'
 
-const Navbar = () => {
+
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>Logo</NavLogo>
-          <HamburgerMenu>
-            <FaBars />
+          <NavLogo to='/'>
+          <img src={logo2} alt='small logo'></img>
+          </NavLogo>
+          <HamburgerMenu onClick={toggle}>
+            <Bars/>
           </HamburgerMenu>
           <NavMenu>
             <NavItem>

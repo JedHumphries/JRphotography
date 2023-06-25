@@ -1,10 +1,12 @@
 import styled from 'styled-components'
+import { FaBars } from "react-icons/fa";
 import { Link as LinkRouter } from 'react-router-dom'
 import { Link as LinkScroll } from 'react-scroll'
 
+
 export const Nav = styled.nav`
 background-color: black;
-height: 90px;
+height: 100px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -39,11 +41,13 @@ color: white;
 cursor: pointer;
 padding: 25px;
 justify-self: flex-start;
+
 `
 
 export const HamburgerMenu = styled.div`
-display: none;
+/* display: none; */
 padding: 25px;
+
 
 @media screen and (max-width: 768px) {
     display:block;
@@ -86,4 +90,6 @@ height: 100%;
 &.active {
     border-bottom: 3px solid #EAD29C;
 }
+`
+export const Bars = styled(FaBars)`
 `
