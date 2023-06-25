@@ -5,7 +5,7 @@ import { Link as LinkScroll } from 'react-scroll'
 
 
 export const Nav = styled.nav`
-background-color: black;
+background-color: #EAD29C;
 height: 100px;
 display: flex;
 justify-content: center;
@@ -45,7 +45,7 @@ justify-self: flex-start;
 `
 
 export const HamburgerMenu = styled.div`
-/* display: none; */
+display: none;
 padding: 25px;
 
 
@@ -80,7 +80,7 @@ export const NavLinks = styled(LinkScroll)`
 display: flex;
 align-items: center;
 justify-content: center;
-color: white;
+color: black;
 cursor: pointer;
 padding: 16px;
 height: 100%;
@@ -88,8 +88,9 @@ height: 100%;
 height: 100%;
 
 &.active {
-    border-bottom: 3px solid #EAD29C;
+    border-bottom: 3px solid purple;
 }
 `
 export const Bars = styled(FaBars)`
+color: black;
 `
