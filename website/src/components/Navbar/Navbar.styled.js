@@ -88,7 +88,7 @@ height: 100%;
 height: 100%;
 
 &.active {
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid #42CAFD;
 }
 `
 export const Bars = styled(FaBars)`

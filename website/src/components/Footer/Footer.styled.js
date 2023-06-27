@@ -5,20 +5,23 @@ import { Link as LinkRouter } from 'react-router-dom'
 export const FooterContainer = styled.div`
 height: 60px;
 width: 100%;
-background-color: black;
+background-color: #CF0015;
+/* #CF0015 */
 display: flex;
 align-items: center;
 justify-content: center;
-position: absolute;
+position: relative;
 left: 0;
 bottom: 0;
 right: 0;
+z-index: 998;
+
 `
 
 export const FooterInfo = styled.p`
 padding-right: 75px;
 font-size: 16px;
-color:white;
+color: white;
 `
 
 export const EmailLink = styled(LinkRouter)`

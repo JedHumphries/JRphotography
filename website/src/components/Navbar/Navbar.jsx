@@ -7,7 +7,7 @@ import { Nav,
   NavLinks,
   HamburgerMenu,
   Bars } from './Navbar.styled'
-import logo2 from './images/logo2.jpg'
+import logo2 from '../../images/logo2.jpg'
 
 
 const Navbar = ({ toggle }) => {
