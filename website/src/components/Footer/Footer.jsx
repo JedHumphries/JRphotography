@@ -17,7 +17,7 @@ function Footer() {
             Copyright©2023 Joe Roper
         </FooterInfo>
             <EmailLink to='mailto:joeroper@rocketmail.com' target="_blank">
-                <Envelope size='1.5em' color=''/>
+                <Envelope size='1.5em'/>
             </EmailLink>
             <InstagramLink to='https://www.instagram.com/jr_shot/' target="_blank">
                 <Instagram size='1.5em'  />

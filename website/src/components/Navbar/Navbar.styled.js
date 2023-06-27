@@ -36,7 +36,6 @@ export const NavLogo = styled(LinkRouter)`
 display: flex;
 align-items: center;
 text-decoration: none;
-/* background-color: blue; */
 color: white;
 cursor: pointer;
 padding: 25px;
@@ -84,7 +83,6 @@ color: black;
 cursor: pointer;
 padding: 16px;
 height: 100%;
-/* background-color: blue; */
 height: 100%;
 
 &.active {

@@ -1,4 +1,5 @@
 import React from 'react'
+import logoSmall from '../../images/logoSmall.jpg'
 import { Nav, 
   NavLogo, 
   NavbarContainer, 
@@ -7,7 +8,7 @@ import { Nav,
   NavLinks,
   HamburgerMenu,
   Bars } from './Navbar.styled'
-import logo2 from '../../images/logo2.jpg'
+
 
 
 const Navbar = ({ toggle }) => {
@@ -16,7 +17,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>
-          <img src={logo2} alt='small logo'></img>
+          <img src={logoSmall} alt='small logo'></img>
           </NavLogo>
           <HamburgerMenu onClick={toggle}>
             <Bars/>
