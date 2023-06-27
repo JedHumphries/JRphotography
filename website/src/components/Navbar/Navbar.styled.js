@@ -11,8 +11,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: 16px;
-/* margin-top: -80px; */
-/* top: 0; */
+margin-top: -80px;
+top: 0;
 position: sticky;
 z-index: 10;
 
