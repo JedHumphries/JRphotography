@@ -18,7 +18,7 @@ const Home = () => {
       <DropDownMenu isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/> 
             <VideoSection/>
-              <Footer/>
+              {/* <Footer/> */}
     </>
   )
 }

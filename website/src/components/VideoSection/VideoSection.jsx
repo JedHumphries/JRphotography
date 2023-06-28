@@ -6,7 +6,7 @@ const VideoSection = () => {
   return (
     <VideoContainer>
         <VideoBg>
-        <VideoMp4 src={Video} autoPlay loop muted />
+        <VideoMp4 src={Video} autoPlay loop muted type="video/mp4" />
         </VideoBg>
     </VideoContainer>
   )

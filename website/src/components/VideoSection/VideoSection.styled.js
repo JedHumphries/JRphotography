@@ -18,13 +18,13 @@ top: 0;
 bottom: 0;
 right: 0;
 left: 0;
-height: 100vh;
-width: 100vw;
+height: 100%;
+width: 100%;
 overflow: hidden;
 `
 
 export const VideoMp4 = styled.video`
-height: 100%;
+height: auto;
 width: 100%;
 -o-object-fit: cover;
 object-fit: cover;
