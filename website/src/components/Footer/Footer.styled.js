@@ -11,10 +11,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
-left: 0;
 bottom: 0;
 right: 0;
 z-index: 998;
+
 
 `
 

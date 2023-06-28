@@ -16,9 +16,6 @@ top: 0;
 position: sticky;
 z-index: 10;
 
-@media screen and (max-width: 960px){
-    transition: 0.8s all ease;
-}
 `
 
 export const NavbarContainer = styled.div`
@@ -40,7 +37,6 @@ color: white;
 cursor: pointer;
 padding: 25px;
 justify-self: flex-start;
-
 `
 
 export const HamburgerMenu = styled.div`
