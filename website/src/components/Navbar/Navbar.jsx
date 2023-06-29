@@ -24,10 +24,10 @@ const Navbar = ({ toggle }) => {
           </HamburgerMenu>
           <NavMenu>
             <NavItem>
-              <NavLinks to='projects'>Projects</NavLinks>
+              <NavLinks to='gallery'>Gallery</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='gallery'>Gallery</NavLinks>
+              <NavLinks to='projects'>Projects</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='about'>About</NavLinks>

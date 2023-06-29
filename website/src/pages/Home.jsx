@@ -3,6 +3,7 @@ import DropDownMenu from '../components/DropDown/DropDownMenu';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import VideoSection from '../components/VideoSection/VideoSection';
+import GallerySection from '../components/Gallery/GallerySection';
 
 
 
@@ -22,7 +23,8 @@ const Home = () => {
         <br></br>
         <br></br>
             <VideoSection/>
-              <Footer/>
+            <GallerySection/>
+              {/* <Footer/> */}
     </>
   )
 }
