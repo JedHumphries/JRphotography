@@ -8,24 +8,67 @@ justify-content: center;
 position: relative;
 height: 800px;
 z-index: 1;
-padding: 0 30px;
+/* padding: 0 30px; */
 
 `
 
 export const VideoBg = styled.div`
 position: absolute;
+display: flex;
 top: 0;
 bottom: 0;
 right: 0;
 left: 0;
 height: 100%;
 width: 100%;
-overflow: hidden;
+ overflow: hidden;
+
 `
 
 export const VideoMp4 = styled.video`
-height: auto;
+height: 100%;
 width: 100%;
--o-object-fit: cover;
+/* -o-object-fit: cover; */
 object-fit: cover;
+`
+
+export const VideoContent = styled.div`
+z-index: 3;
+max-width: 1200px;
+position: absolute;
+padding: 8px 24px;
+display: flex;
+flex-direction: column;
+align-items: center;
+`
+
+export const H1Video = styled.h1`
+font-family: Mr Dafoe;
+color: white;
+font-size: 128px;
+text-align: center;
+
+@media screen and (max-width: 768px) {
+    font-size: 64px;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 32px;
+}
+`
+
+export const VideoP = styled.p`
+margin-top: 24px;
+color: white;
+font-size: 28px;
+text-align: center;
+max-width: 600px;
+
+@media screen and (max-width: 768px) {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 18px;
+}
 `

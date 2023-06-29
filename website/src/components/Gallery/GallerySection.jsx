@@ -1,23 +1,27 @@
 import React from 'react'
-import { GalleryContainer, GallerySectionBg, PicOne, PicTwo, PicThree, PicInfo  } from './GallerySection.styled'
+import { GalleryContainer, H1Gallery, GallerySectionBg, PicOne, PicTwo, PicThree, PicInfo  } from './GallerySection.styled'
+ 
 
 const GallerySection = () => {
   return (
+    <>
     <GalleryContainer>
-        <GallerySectionBg>
-            <PicOne/>
-            <PicInfo>Picture of a dog.</PicInfo>
+    <H1Gallery>GALLERY</H1Gallery>
+        <GallerySectionBg to="gallery">
+            <PicOne />
+            <PicInfo> Picture of a dog.</PicInfo>
             </GallerySectionBg>
-            <GallerySectionBg>
+            <GallerySectionBg to="gallery">
              <PicTwo/> 
-             <PicInfo>Picture of a person.</PicInfo>  
+             <PicInfo> Picture of a person.</PicInfo>  
             </GallerySectionBg>
-            <GallerySectionBg>
+            <GallerySectionBg to="gallery">
              <PicThree/>
-             <PicInfo>Picture of a landscape.</PicInfo>   
+             <PicInfo> Picture of a landscape.</PicInfo>   
             </GallerySectionBg>
             
     </GalleryContainer>
+    </>
   )
 }
 
