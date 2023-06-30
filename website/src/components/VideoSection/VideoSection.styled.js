@@ -53,7 +53,7 @@ text-align: center;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 32px;
+    font-size: 48px;
 }
 `
 

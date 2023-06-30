@@ -24,13 +24,13 @@ const Navbar = ({ toggle }) => {
           </HamburgerMenu>
           <NavMenu>
             <NavItem>
-              <NavLinks to='gallery'>Gallery</NavLinks>
+              <NavLinks to='about'>About</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='projects'>Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='about'>About</NavLinks>
+              <NavLinks to='gallery'>Gallery</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='contact'>Contact</NavLinks>

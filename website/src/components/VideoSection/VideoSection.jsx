@@ -10,7 +10,7 @@ const VideoSection = () => {
         </VideoBg>
         <VideoContent>
           <H1Video> Joe Roper</H1Video>
-          <VideoP>[ Photographer, Videographer, Artist]</VideoP>
+          <VideoP>[ Photographer, Videographer, Artist ]</VideoP>
         </VideoContent>
     </VideoContainer>
   )
