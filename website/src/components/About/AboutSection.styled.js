@@ -14,6 +14,14 @@ font-size: 32px;
 padding: 10px;
 font-family: Roboto;
 text-align: left;
+
+@media screen and (max-width: 768px) {
+    font-size: 64px;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 48px;
+}
 `
 
 export const AboutP = styled(motion.p)`
@@ -21,6 +29,14 @@ color: white;
 font-size: 28px;
 padding: 10px;
 font-family: Roboto Condensed;
+
+@media screen and (max-width: 768px) {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 18px;
+}
 `
 
 export const ArrowContainer = styled(motion.div)`
