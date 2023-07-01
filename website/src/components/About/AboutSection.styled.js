@@ -8,10 +8,6 @@ width: 100%;
 background-color: black;
 `
 
-export const H1RedactedEffect = styled(motion.div)`
-
-`
-
 export const AboutH1 = styled(motion.h2)`
 color: white;
 font-size: 32px;

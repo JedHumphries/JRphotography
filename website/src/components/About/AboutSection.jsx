@@ -4,43 +4,24 @@ import { AboutContainer,
   AboutP, 
   ArrowContainer, 
   ArrowLink, 
-  H1RedactedEffect  } from './AboutSection.styled'
+    } from './AboutSection.styled'
 import { FaArrowDown } from 'react-icons/fa'
+
 
 
 const AboutSection = () => {
   return (
 <AboutContainer>
-  <H1RedactedEffect
-    variants={{ 
-    hidden:{left: 0},
-    visible:{left: "100%"},
-    }}
-    initial="hidden"
-    whileInView="visible"
-    transition={{duration: 0.5, ease: "easeIn"}}
-    style={{
-      position: "absolute",
-      width: "fit-content",
-      top: "4",
-      bottom: "4",
-      left: "0",
-      right: "0",
-      background: "purple",
-      zIndex: 20,
-    }}
-  >
-      <AboutH1 
-    variants={{ 
+        <AboutH1
+        variants={{ 
     hidden: {opacity: 0, y: 75}
     }}
     initial="hidden"
     whileInView={{ opacity: 1, y: 0 }}
     transition={{duration: 0.5, delay: 0.25}}
-   >
-    About Me..
-      </AboutH1>
-    </H1RedactedEffect>
+        >
+          About Me..
+        </AboutH1>
     <AboutP
     variants={{ 
     hidden: {opacity: 0, y: 75}
@@ -54,6 +35,8 @@ const AboutSection = () => {
     I have worked for a variety of brands and makers, such as The Wild Life Trust and Modern Milkmen to produce imagery in keeping with their values and style. 
     <br></br>
     I am passionate about both product and portrait photography, I really love to work with people who take great pleasure and pride in what they do and help them tell their story.
+    <br></br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
    </AboutP>
    <ArrowContainer
    variants={{ 
@@ -62,6 +45,7 @@ const AboutSection = () => {
     initial="hidden"
     whileInView={{ opacity: 1, y: 0 }}
     transition={{duration: 0.5, delay: 0.25}}
+    
    >  
    <ArrowLink to="contact">
    <FaArrowDown color="white" size="6em"></FaArrowDown>

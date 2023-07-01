@@ -10,7 +10,7 @@ background-color: #CF0015;
 display: flex;
 align-items: center;
 justify-content: center;
-position: relative;
+/* position: absolute; */
 bottom: 0;
 right: 0;
 z-index: 998;
