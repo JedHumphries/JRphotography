@@ -11,7 +11,7 @@ export const H1 = styled.h1`
 color: white;
 font-size: 3rem;
 padding: 10px;
-font-family: Roboto;
+font-family: Lacquer;
 text-align: left;
 padding-top: 25px;
 
@@ -28,7 +28,7 @@ export const AboutP = styled.p`
 color: white;
 font-size: 1.75rem;
 padding: 10px;
-font-family: Roboto Condensed;
+font-family: Lacquer;
 align-items: center;
 justify-content: center;
 
