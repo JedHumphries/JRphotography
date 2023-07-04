@@ -1,52 +1,43 @@
 import styled from "styled-components";
 import { motion } from 'framer-motion'
-import { Link as LinkScroll } from 'react-scroll'
+
 
 export const AboutContainer = styled.div`
-height: 700px;
+height: 600px;
 width: 100%;
 background-color: black;
 `
 
-export const AboutH1 = styled(motion.h2)`
+export const AboutH1 = styled(motion.h1)`
 color: white;
-font-size: 32px;
+font-size: 3rem;
 padding: 10px;
 font-family: Roboto;
 text-align: left;
+padding-top: 25px;
 
 @media screen and (max-width: 768px) {
-    font-size: 64px;
+    font-size: 4em;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 48px;
+    font-size: 3em;
 }
 `
 
 export const AboutP = styled(motion.p)`
 color: white;
-font-size: 28px;
+font-size: 1.75rem;
 padding: 10px;
 font-family: Roboto Condensed;
+align-items: center;
+justify-content: center;
 
 @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 1.125em;
 }
-`
-
-export const ArrowContainer = styled(motion.div)`
-display: flex;
-align-items: center;
-justify-content: center;
-margin-top: 100px;
-color:white;
-`
-
-export const ArrowLink = styled(LinkScroll)`
-cursor: pointer;
 `

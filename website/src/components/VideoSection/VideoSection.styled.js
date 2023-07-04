@@ -6,7 +6,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
-height: 800px;
+height: 700px;
 z-index: 1;
 /* padding: 0 30px; */
 
@@ -45,31 +45,31 @@ align-items: center;
 export const H1Video = styled.h1`
 font-family: Mr Dafoe;
 color: white;
-font-size: 128px;
+font-size: 8rem;
 text-align: center;
 
 @media screen and (max-width: 768px) {
-    font-size: 64px;
+    font-size: 4em;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 48px;
+    font-size: 3em;
 }
 `
 
 export const VideoP = styled.p`
 margin-top: 24px;
 color: white;
-font-size: 28px;
+font-size: 1.75rem;
 text-align: center;
 max-width: 600px;
 font-family: Roboto Condensed;
 
 @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 `
