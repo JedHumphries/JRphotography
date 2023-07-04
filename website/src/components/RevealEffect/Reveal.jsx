@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 
 
 
+
 const Reveal = ({ children }) => {
   return (
     <div style={{ position: "relative", width: "fit-content", overflow: "hidden" }}>
@@ -14,6 +15,7 @@ const Reveal = ({ children }) => {
           }}
           initial="hidden"
           animate="visible"
+          transition={{ duration: 0.5, delay: 0.25}}
         >
         {children}
         </motion.div>

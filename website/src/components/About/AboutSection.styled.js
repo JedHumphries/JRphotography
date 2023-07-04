@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { motion } from 'framer-motion'
 
 
 export const AboutContainer = styled.div`
@@ -8,7 +7,7 @@ width: 100%;
 background-color: black;
 `
 
-export const AboutH1 = styled(motion.h1)`
+export const H1 = styled.h1`
 color: white;
 font-size: 3rem;
 padding: 10px;
@@ -25,7 +24,7 @@ padding-top: 25px;
 }
 `
 
-export const AboutP = styled(motion.p)`
+export const AboutP = styled.p`
 color: white;
 font-size: 1.75rem;
 padding: 10px;
