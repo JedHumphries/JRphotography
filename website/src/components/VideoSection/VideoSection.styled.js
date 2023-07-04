@@ -43,7 +43,8 @@ align-items: center;
 `
 
 export const H1Video = styled.h1`
-font-family: Mr Dafoe;
+/* font-family: Mr Dafoe; */
+font-family: Lacquer;
 color: white;
 font-size: 8rem;
 text-align: center;
