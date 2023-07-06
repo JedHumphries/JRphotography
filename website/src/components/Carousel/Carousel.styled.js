@@ -12,8 +12,9 @@ justify-content: center;
 export const H1 = styled.h1`
 color: black;
 font-family: Lacquer;
-text-align: center;
+/* text-align: center; */
 font-size: 4rem;
+margin-left: 10px;
 `
 
 export const OuterCarousel = styled(motion.div)`
