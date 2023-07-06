@@ -1,14 +1,26 @@
-import React, {useRef, useState, useEffect }from 'react'
-import { motion } from 'framer-motion'
+import React, {useRef, useState, useEffect } from 'react'
+// import { motion } from 'framer-motion'
 import images from '../../images/images'
-import { CarouselBg, } from './Carousel.styled'
+import { CarouselContainer, OuterCarousel, InnerCarousel, Item, Pic } from './Carousel.styled'
+
+
 
 const Carousel = () => {
-  // console.log(images)
   return (
-    <CarouselBg>
-      
-    </CarouselBg>
+  <CarouselContainer>
+    <OuterCarousel>
+      <InnerCarousel>
+        {images.map(image => {
+          return (
+            <Item key={image}>
+              <Pic src={image} alt="" />
+            </Item>
+          )
+        })}
+      </InnerCarousel>
+    </OuterCarousel>
+  </CarouselContainer>
+    
   )
 }
 
