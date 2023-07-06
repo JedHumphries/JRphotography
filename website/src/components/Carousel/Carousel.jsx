@@ -1,20 +1,21 @@
 import React, {useRef, useState, useEffect } from 'react'
 // import { motion } from 'framer-motion'
 import images from '../../images/images'
-import { CarouselContainer, OuterCarousel, InnerCarousel, Item, Pic } from './Carousel.styled'
+import { CarouselContainer, OuterCarousel, InnerCarousel, ItemContainer, Item, H1 } from './Carousel.styled'
 
 
 
 const Carousel = () => {
   return (
   <CarouselContainer>
+  <H1> Gallery </H1>
     <OuterCarousel>
       <InnerCarousel>
         {images.map(image => {
           return (
-            <Item key={image}>
-              <Pic src={image} alt="" />
-            </Item>
+            <ItemContainer key={image}>
+              <Item src={image} alt="" />
+            </ItemContainer>
           )
         })}
       </InnerCarousel>
