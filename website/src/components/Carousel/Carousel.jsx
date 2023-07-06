@@ -9,11 +9,11 @@ import Reveal from '../RevealEffect/Reveal'
 const Carousel = () => {
   return (
   <CarouselContainer>
-  <Reveal>
-  <H1> Gallery </H1>
-  </Reveal>
+    <Reveal>
+      <H1> Gallery </H1>
+    </Reveal>
     <OuterCarousel>
-      <InnerCarousel>
+      <InnerCarousel drag="x">
         {images.map(image => {
           return (
             <ItemContainer key={image}>
