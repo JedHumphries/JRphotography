@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import VideoSection from '../components/VideoSection/VideoSection';
 import AboutSection from '../components/About/AboutSection';
+import Carousel from '../components/Gallery/Carousel';
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
         <br></br>
             <VideoSection/>
             <AboutSection/>
+            <Carousel/>
               <Footer/>
     </>
   )
