@@ -10,5 +10,4 @@ border: 2.5px solid black;
 color: black;
 border-radius: 0.5em;
 margin: 0.5rem;
-
 `

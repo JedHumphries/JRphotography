@@ -8,8 +8,6 @@ import Carousel from '../components/Carousel/Carousel';
 
 
 
-
-
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
