@@ -10,8 +10,9 @@ const Gallery = () => {
     }
   return (
     <>
-    <DropDownMenu isOpen={isOpen} toggle={toggle}/>
-    <Navbar toggle={toggle}/>
+    {/* <DropDownMenu isOpen={isOpen} toggle={toggle}/>
+    <Navbar toggle={toggle}/> */}
+    <h1>gallery.images</h1>
     </>
   )
 }

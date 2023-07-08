@@ -13,6 +13,7 @@ import Button from '../Button/Button'
 
 
 const Carousel = () => {
+  // could useMediaQuery hook to make responsive
   const [width, setWidth] = useState(0)
   const carousel = useRef()
 
@@ -41,7 +42,7 @@ const Carousel = () => {
         })}
       </InnerCarousel>
     </OuterCarousel>
-    <BtnLink to='gallery'>
+    <BtnLink to='images'>
     <Button/>
     </BtnLink>
   </CarouselContainer>

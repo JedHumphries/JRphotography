@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
+import Gallery from './pages/Gallery'
 // import Gallery from './pages/Gallery'
 
 
@@ -9,9 +10,10 @@ import Home from './pages/Home'
 function App() {
   
   return (
-    <Router to="/">
-        <Home/>
-    </Router>
+    <Routes>
+      <Route path="/" element={ <Home/> } />
+      <Route path="/images" element={ <Gallery/> } /> 
+    </Routes>
   )
 }
 
