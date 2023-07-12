@@ -13,7 +13,7 @@ https://www.departmenttwo.co.uk/
 https://www.benpagephotography.com/portraiture
 
 Specifics:
-Needs to have sections for: projects, work, contact/about. 
-Linked to my social media – LinkedIn and Instagram.
-Incorporate my Logo
+Needs to have sections for: projects, <br> work, <br> contact/about. 
+<br> Linked to my social media – LinkedIn and Instagram.
+<br> Incorporate my Logo
 
