@@ -43,7 +43,7 @@ const Carousel = () => {
       </InnerCarousel>
     </OuterCarousel>
     <BtnLink to='images'>
-    <Button/>
+    <Button>More</Button>
     </BtnLink>
   </CarouselContainer>
   
