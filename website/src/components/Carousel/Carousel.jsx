@@ -27,7 +27,7 @@ const Carousel = () => {
     <Reveal>
       <H1> Gallery </H1>
     </Reveal>
-    <OuterCarousel ref={carousel} whileTap={{cursor: "grabbing"}}>
+    <OuterCarousel ref={carousel} whileTap={{ cursor: "grabbing" }}>
       <InnerCarousel 
       // animate={{ x: [0, 10, 0] }}
       // transition={{repeat: Infinity }}
