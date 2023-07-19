@@ -8,7 +8,7 @@ const Slider = ({ images = [], ...props }) => {
     <Wrapper {...props}>
         {images.map((image, index) => (
             <Slide key={index}
-                  style={{ background: `url(${image})` }}
+                  style={{ backgroundImage: `url(${image})` }}
             ></Slide>))}
     </Wrapper>
     </>
