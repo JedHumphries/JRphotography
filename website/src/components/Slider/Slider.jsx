@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Slide, Wrapper, } from './Slider.styled'
+import { Slide, Wrapper, Children } from './Slider.styled'
 
 const Slider = ({
   images = [],
@@ -32,8 +32,13 @@ const Slider = ({
             <Slide key={index}
                   style={{ backgroundImage: `url(${image})`, 
                   marginLeft: index === 0 ? `-${currentSlide * 100}%` : null }}
-            ></Slide>))}
+            ></Slide>
+            ))}
+            <Children>
+              {children}
+            </Children>
     </Wrapper>
+
     </>
   )
 }
