@@ -86,6 +86,7 @@ height: 100%;
     border-bottom: 3px solid #42CAFD;
 }
 `
+
 export const Bars = styled(FaBars)`
 color: black;
 `
