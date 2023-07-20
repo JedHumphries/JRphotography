@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import VideoSection from '../components/VideoSection/VideoSection';
 import AboutSection from '../components/About/AboutSection';
-// import Carousel from '../components/Carousel/Carousel';
 import Slider from '../components/Slider/Slider';
+
 
 import image1 from '../images/image1.jpg'
 import image2 from '../images/image2.jpg'
@@ -33,8 +33,7 @@ const Home = () => {
       <VideoSection/>
       <AboutSection/>
       <Slider 
-    
-      images={[image1,image2,image3,image4,image5,image6,]}/>
+      images={[image1,image2,image3,image4,image5, image6]}/>
       <Footer/>
     </>
   )

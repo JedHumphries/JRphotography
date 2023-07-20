@@ -6,7 +6,6 @@ export const FooterContainer = styled.div`
 height: 60px;
 width: 100%;
 background-color: #CF0015;
-/* #CF0015 */
 display: flex;
 align-items: center;
 justify-content: center;

@@ -1,20 +1,41 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Slide, Wrapper, } from './Slider.styled'
 
-const Slider = ({ images = [], ...props }) => {
-    console.log(images)
+const Slider = ({
+  images = [],
+  autoPlay = true,
+  autoPlayTime = 3000,
+  children,
+  ...props
+}) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  function nextSlide(slideIndex = currentSlide + 1) {
+    const newSlideIndex = slideIndex >= images.length ? 0 : slideIndex;
+
+    setCurrentSlide(newSlideIndex);
+  }
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      nextSlide();
+    }, autoPlayTime);
+
+    return () => clearTimeout(timer);
+  }, [currentSlide]);
+
+
   return (
     <>
     <Wrapper {...props}>
         {images.map((image, index) => (
             <Slide key={index}
-                  style={{ backgroundImage: `url(${image})` }}
+                  style={{ backgroundImage: `url(${image})`, 
+                  marginLeft: index === 0 ? `-${currentSlide * 100}%` : null }}
             ></Slide>))}
     </Wrapper>
     </>
   )
 }
-
-
 
 export default Slider
