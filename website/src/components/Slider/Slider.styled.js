@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
-background-color: gray;
+background-color: black;
 height: 800px;
 display: flex;
 flex-wrap: nowrap;

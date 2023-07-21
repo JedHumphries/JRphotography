@@ -4,7 +4,7 @@ import { Slide, Wrapper, Children } from './Slider.styled'
 const Slider = ({
   images = [],
   autoPlay = true,
-  autoPlayTime = 3000,
+  autoPlayTime = 30000,
   children,
   ...props
 }) => {
