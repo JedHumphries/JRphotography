@@ -22,6 +22,7 @@ export const Item1 = styled.img`
 height: 99%;
 width: 99%;
 margin-top: 5px;
+margin-left: 2px;
 border: 2px solid black; 
 `
 
