@@ -6,16 +6,16 @@ export const Container = styled.div`
 height: 800px;
 background-color: #EAD29C;
 display: grid;
-grid-template-columns: 2.8fr 1.5fr;
+grid-template-columns: 1.5fr 2.8fr;
 gap: .5rem;
 align-items: center;
 justify-content: center;
+border: 4px double black;
 `
 
 export const Project1 = styled.div`
 height: 100%;
 width: 100%;
-display: flex;
 `
 
 export const Item1 = styled.img`
@@ -40,9 +40,9 @@ border: 2px solid black;
 `
 
 export const ButtonContainer = styled.div`
-display: flex;
+/* display: flex;
 justify-content: center;
-align-items: center;
+align-items: center; */
 `
 
 
@@ -60,7 +60,7 @@ border: 2px solid black;
 
 export const H1 = styled.h1`
 color: black;
-font-size: 3rem;
+font-size: 4rem;
 font-family: Lacquer;
 margin: 5px;
 `
