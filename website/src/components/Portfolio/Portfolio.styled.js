@@ -4,72 +4,71 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 800px;
-background-color: #EAD29C;
-display: grid;
-grid-template-columns: 1.5fr 2.8fr;
-gap: .5rem;
+background-color: black;
+display: flex;
+padding: 2px;
 align-items: center;
 justify-content: center;
-border: 4px double black;
 `
 
 export const Project1 = styled.div`
 height: 100%;
 width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
-export const Item1 = styled.img`
-height: 99%;
-width: 99%;
-margin-top: 5px;
-margin-left: 2px;
-border: 2px solid black; 
+export const Item1 = styled.video`
+height: 100%;
+width: 100%;
+object-fit: cover;
+border: 2px solid white; 
 `
 
 export const Project2 = styled.div`
 height: 100%;
 width: 100%;
-display: grid;
-`
-
-export const Item2 = styled.img`
-height: 95%;
-width: 98%;
-margin-top: 5px;
-border: 2px solid black; 
-`
-
-export const ButtonContainer = styled.div`
 /* display: flex;
 justify-content: center;
 align-items: center; */
 `
 
-
-export const Project3 = styled.div`
+export const Item2 = styled.img`
 height: 100%;
 width: 100%;
-display: grid;
+margin-top: 5px;
+border: 2px solid white; 
+`
+
+export const ButtonContainer = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+`
+
+export const Project3 = styled.div`
+/* height: 100%;
+width: 100%; */
 `
 
 export const Item3 = styled.img`
-height: 95%;
-width: 98%;
-border: 2px solid black; 
+/* height: 100%;
+width: 100%;
+border: 2px solid black;  */
 `
 
 export const H1 = styled.h1`
-color: black;
+color: white;
 font-size: 4rem;
 font-family: Lacquer;
-margin: 5px;
+padding: 5px;
 `
 
 export const P = styled.p`
-color: black;
+color: white;
 font-size: 1.75rem;
 font-family: Lacquer;
-margin: 5px;
-display: flex;
-align-items: center;
+padding: 5px;
 `

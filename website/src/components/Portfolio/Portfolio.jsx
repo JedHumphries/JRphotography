@@ -1,24 +1,25 @@
 import React from 'react'
 import Button from '../Button/Button'
-import { Container, Project1, Project2, H1, P, Item1, Item2, ButtonContainer,  } from './Portfolio.styled'
+import { Container, Project1, Project2, H1, P, Item1, ButtonContainer,  } from './Portfolio.styled'
 
-import image1 from '../../images/image1.jpg'
-import image2 from '../../images/image2.jpg'
+// import image1 from '../../images/image1.jpg'
+import drone from '../../videos/drone.mp4'
 
 
 const Portfolio = () => {
   return (
     <Container>
-        <Project1>
-            <Item1 src={image1} alt=''/>
-        </Project1>
+          <Project1>
+          <ButtonContainer> 
+          
+              <H1>blah blah blah</H1>
+              <P>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</P> 
+              <Button>Projects</Button> 
+              </ButtonContainer> 
+            
+          </Project1>
         <Project2> 
-             <H1>blah blah blah</H1>
-             <Item2 src={image2} alt=''/>
-             <P>blah blah blah blah blah blah</P> 
-             <ButtonContainer> 
-             <Button>Projects</Button> 
-              </ButtonContainer>     
+             <Item1 src={drone} autoPlay loop muted type="video/mp4" />   
         </Project2>
     </Container>
   )

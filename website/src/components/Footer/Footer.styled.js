@@ -13,8 +13,7 @@ justify-content: center;
 bottom: 0;
 right: 0;
 z-index: 998;
-
-
+border: 1px solid white;
 `
 
 export const FooterInfo = styled.p`
