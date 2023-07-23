@@ -43,10 +43,6 @@ const Home = () => {
     <>
       <DropDownMenu isOpen={isOpen} toggle={toggle}/>
       <Navbar toggle={toggle}/> 
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <VideoSection/>
       <AboutSection/>
       <Link to='/images'>

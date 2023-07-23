@@ -6,10 +6,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 position: relative;
-height: 518px;
+height: 600px;
 z-index: 1;
+margin-top: 5rem;
 /* padding: 0 30px; */
-
 `
 
 export const VideoBg = styled.div`
@@ -43,7 +43,6 @@ align-items: center;
 `
 
 export const H1Video = styled.h1`
-/* font-family: Mr Dafoe; */
 font-family: Lacquer;
 color: white;
 font-size: 8rem;

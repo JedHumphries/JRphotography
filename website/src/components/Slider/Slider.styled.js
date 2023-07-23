@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
 background-color: black;
-height: 800px;
+height: 600px;
 display: flex;
 flex-wrap: nowrap;
 overflow-x: hidden;

@@ -9,11 +9,10 @@ background-color: #CF0015;
 display: flex;
 align-items: center;
 justify-content: center;
-/* position: absolute; */
 bottom: 0;
 right: 0;
 z-index: 998;
-border: 1px solid white;
+/* border: 1px solid white; */
 `
 
 export const FooterInfo = styled.p`

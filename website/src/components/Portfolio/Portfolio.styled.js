@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-height: 800px;
+height: 600px;
 background-color: black;
 display: flex;
 padding: 2px;
@@ -29,9 +29,6 @@ border: 2px solid white;
 export const Project2 = styled.div`
 height: 100%;
 width: 100%;
-/* display: flex;
-justify-content: center;
-align-items: center; */
 `
 
 export const Item2 = styled.img`
@@ -46,17 +43,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-`
-
-export const Project3 = styled.div`
-/* height: 100%;
-width: 100%; */
-`
-
-export const Item3 = styled.img`
-/* height: 100%;
-width: 100%;
-border: 2px solid black;  */
 `
 
 export const H1 = styled.h1`
