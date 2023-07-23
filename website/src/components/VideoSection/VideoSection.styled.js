@@ -9,7 +9,6 @@ position: relative;
 height: 600px;
 z-index: 1;
 margin-top: 5rem;
-/* padding: 0 30px; */
 `
 
 export const VideoBg = styled.div`
@@ -22,13 +21,11 @@ left: 0;
 height: 100%;
 width: 100%;
  overflow: hidden;
-
 `
 
 export const VideoMp4 = styled.video`
 height: 100%;
 width: 100%;
-/* -o-object-fit: cover; */
 object-fit: cover;
 `
 

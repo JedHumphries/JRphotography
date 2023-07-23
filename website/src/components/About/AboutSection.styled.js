@@ -9,18 +9,18 @@ background-color: black;
 
 export const H1 = styled.h1`
 color: white;
-font-size: 3rem;
+font-size: 4rem;
 padding: 10px;
 font-family: Lacquer;
 text-align: left;
 padding-top: 25px;
 
 @media screen and (max-width: 768px) {
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 @media screen and (max-width: 480px) {
-    font-size: 3em;
+    font-size: 2em;
 }
 `
 

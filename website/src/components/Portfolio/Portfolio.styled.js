@@ -11,7 +11,7 @@ align-items: center;
 justify-content: center;
 `
 
-export const Project1 = styled.div`
+export const LeftContainer = styled.div`
 height: 100%;
 width: 100%;
 display: flex;
@@ -19,23 +19,16 @@ justify-content: center;
 align-items: center;
 `
 
-export const Item1 = styled.video`
+export const Vid = styled.video`
 height: 100%;
 width: 100%;
 object-fit: cover;
-border: 2px solid white; 
+border: 1px solid white; 
 `
 
-export const Project2 = styled.div`
+export const RightContainer = styled.div`
 height: 100%;
 width: 100%;
-`
-
-export const Item2 = styled.img`
-height: 100%;
-width: 100%;
-margin-top: 5px;
-border: 2px solid white; 
 `
 
 export const ButtonContainer = styled.div`
@@ -50,6 +43,14 @@ color: white;
 font-size: 4rem;
 font-family: Lacquer;
 padding: 5px;
+
+@media screen and (max-width: 768px) {
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 2em;
+}
 `
 
 export const P = styled.p`
@@ -57,4 +58,12 @@ color: white;
 font-size: 1.75rem;
 font-family: Lacquer;
 padding: 5px;
+
+@media screen and (max-width: 768px) {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 1.125em;
+}
 `

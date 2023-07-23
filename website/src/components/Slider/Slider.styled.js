@@ -11,7 +11,7 @@ position: relative;
 `
 
 export const Slide = styled.div`
-border: 4px double #ffff;
+/* border: 2px solid #ffff; */
 height: 100%;
 width: 100%;
 flex-shrink: 0;

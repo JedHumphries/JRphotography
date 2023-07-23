@@ -22,13 +22,29 @@ import image6 from '../images/image6.jpg'
 
 const H1 = styled(motion.h1)`
 color: limegreen;
-font-size: 3rem;
+font-size: 4rem;
 font-family: Lacquer;
+
+@media screen and (max-width: 768px) {
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 2em;
+}
 `
 const P = styled(motion.p)`
 color: limegreen;
 font-size: 1.75rem;
 font-family: Lacquer;
+
+@media screen and (max-width: 768px) {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+    font-size: 1.125em;
+}
 `
 
 const Home = () => {
