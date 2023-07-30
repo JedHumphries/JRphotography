@@ -3,10 +3,9 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-height: 600px;
-background-color: black;
+height: 650px;
+background-color: #EAD29C;
 display: flex;
-padding: 2px;
 align-items: center;
 justify-content: center;
 `
@@ -17,13 +16,14 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
+border: 1px solid black; 
 `
 
 export const Vid = styled.video`
 height: 100%;
 width: 100%;
 object-fit: cover;
-border: 1px solid white; 
+border: 1px solid black; 
 `
 
 export const RightContainer = styled.div`
@@ -39,9 +39,9 @@ align-items: center;
 `
 
 export const H1 = styled.h1`
-color: white;
+color: black;
 font-size: 4rem;
-font-family: Lacquer;
+font-family: Stylish;
 padding: 5px;
 
 @media screen and (max-width: 768px) {
@@ -54,9 +54,9 @@ padding: 5px;
 `
 
 export const P = styled.p`
-color: white;
+color: black;
 font-size: 1.75rem;
-font-family: Lacquer;
+font-family: Stylish;
 padding: 5px;
 
 @media screen and (max-width: 768px) {

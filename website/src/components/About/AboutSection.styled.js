@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 
 export const AboutContainer = styled.div`
-height: 600px;
+height: 650px;
 width: 100%;
-background-color: black;
+background-color: #EAD29C;
 `
 
 export const H1 = styled.h1`
-color: white;
+color: black;
 font-size: 4rem;
 padding: 10px;
-font-family: Lacquer;
+font-family: Stylish;
 text-align: left;
 padding-top: 25px;
 
@@ -25,10 +25,10 @@ padding-top: 25px;
 `
 
 export const AboutP = styled.p`
-color: white;
+color: black;
 font-size: 1.75rem;
 padding: 10px;
-font-family: Lacquer;
+font-family: Stylish;
 align-items: center;
 justify-content: center;
 

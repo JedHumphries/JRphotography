@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 
 export const Wrapper = styled.div`
-background-color: black;
-height: 600px;
+background-color: white;
+height: 650px;
 display: flex;
 flex-wrap: nowrap;
 overflow-x: hidden;
@@ -11,7 +11,7 @@ position: relative;
 `
 
 export const Slide = styled.div`
-/* border: 2px solid #ffff; */
+border: 2px solid black;
 height: 100%;
 width: 100%;
 flex-shrink: 0;

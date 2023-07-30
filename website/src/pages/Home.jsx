@@ -21,9 +21,9 @@ import image6 from '../images/image6.jpg'
 
 
 const H1 = styled(motion.h1)`
-color: limegreen;
+color: black;
 font-size: 4rem;
-font-family: Lacquer;
+font-family: Stylish;
 
 @media screen and (max-width: 768px) {
     font-size: 2.5em;
@@ -34,9 +34,9 @@ font-family: Lacquer;
 }
 `
 const P = styled(motion.p)`
-color: limegreen;
+color: black;
 font-size: 1.75rem;
-font-family: Lacquer;
+font-family: Stylish;
 
 @media screen and (max-width: 768px) {
     font-size: 1.5em;
@@ -63,7 +63,7 @@ const Home = () => {
       <AboutSection/>
       <Link to='/images'>
       <Slider 
-      images={[image1,image2,image3,image4,image5, image6]}>
+      images={[ image1,image2,image3,image4,image5, image6 ]}>
       <H1
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -73,7 +73,7 @@ const Home = () => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: .5 }}
-      > blah blah blah blah blah</P>
+      > Click For More 👉</P>
       </Slider>
       </Link>
       <Portfolio/>
