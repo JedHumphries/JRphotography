@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { motion } from 'framer-motion'
 
 export const Btn = styled(motion.button)`
-font-family: Lacquer;
+font-family: Stylish;
 padding: 0.5em;
 font-size: 2em;
 background: white;

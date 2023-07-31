@@ -40,7 +40,7 @@ align-items: center;
 `
 
 export const H1Video = styled.h1`
-font-family: Lacquer;
+font-family: Stylish;
 color: white;
 font-size: 8rem;
 text-align: center;
@@ -60,7 +60,7 @@ color: white;
 font-size: 1.75rem;
 text-align: center;
 max-width: 600px;
-font-family: Roboto Condensed;
+font-family: Stylish;
 
 @media screen and (max-width: 768px) {
     font-size: 1.5em;

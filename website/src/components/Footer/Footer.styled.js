@@ -5,7 +5,8 @@ import { Link as LinkRouter } from 'react-router-dom'
 export const FooterContainer = styled.div`
 height: 60px;
 width: 100%;
-background-color: #CF0015;
+/* background-color: #CF0015; */
+background-color: black;
 display: flex;
 align-items: center;
 justify-content: center;

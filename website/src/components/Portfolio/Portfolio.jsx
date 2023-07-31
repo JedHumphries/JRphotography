@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 import { Container, LeftContainer, RightContainer, H1, P, Vid, ButtonContainer,  } from './Portfolio.styled'
 
 
-import drone from '../../videos/drone.mp4'
+import project from '../../videos/project.mp4'
 
 
 const Portfolio = () => {
@@ -17,7 +17,7 @@ const Portfolio = () => {
               </ButtonContainer>  
           </LeftContainer>
         <RightContainer> 
-             <Vid src={drone} autoPlay loop muted type="video/mp4" />   
+             <Vid src={project} autoPlay loop muted type="video/mp4" />   
         </RightContainer>
     </Container>
   )

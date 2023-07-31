@@ -11,7 +11,7 @@ export const H1 = styled.h1`
 color: black;
 font-size: 4rem;
 padding: 10px;
-font-family: Stylish;
+font-family: 'Zilla Slab Highlight', cursive;
 text-align: left;
 padding-top: 25px;
 
@@ -28,7 +28,7 @@ export const AboutP = styled.p`
 color: black;
 font-size: 1.75rem;
 padding: 10px;
-font-family: Stylish;
+font-family: 'Zilla Slab Highlight', cursive;
 align-items: center;
 justify-content: center;
 
