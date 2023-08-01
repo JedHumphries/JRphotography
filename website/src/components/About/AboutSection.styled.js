@@ -28,7 +28,7 @@ export const AboutP = styled.p`
 color: black;
 font-size: 1.75rem;
 padding: 10px;
-font-family: 'Zilla Slab Highlight', cursive;
+font-family: Stylish;
 align-items: center;
 justify-content: center;
 

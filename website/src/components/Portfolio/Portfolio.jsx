@@ -11,9 +11,9 @@ const Portfolio = () => {
     <Container>
           <LeftContainer>
               <ButtonContainer> 
-                <H1>blah blah blah</H1>
+                <H1>Portfolio</H1>
                 <P>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</P> 
-                <Button>Projects</Button> 
+                <Button>Enter</Button> 
               </ButtonContainer>  
           </LeftContainer>
         <RightContainer> 

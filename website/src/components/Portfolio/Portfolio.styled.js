@@ -8,6 +8,8 @@ background-color: #EAD29C;
 display: flex;
 align-items: center;
 justify-content: center;
+padding-left: 100px;
+padding-right: 100px;
 `
 
 export const LeftContainer = styled.div`
@@ -16,14 +18,14 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 1px solid black; 
+/* border: 2px solid black;  */
 `
 
 export const Vid = styled.video`
 height: 100%;
 width: 100%;
 object-fit: cover;
-border: 1px solid black; 
+border: 2px solid black; 
 `
 
 export const RightContainer = styled.div`
@@ -41,7 +43,7 @@ align-items: center;
 export const H1 = styled.h1`
 color: black;
 font-size: 4rem;
-font-family: Stylish;
+font-family: 'Zilla Slab Highlight', cursive;
 padding: 5px;
 
 @media screen and (max-width: 768px) {

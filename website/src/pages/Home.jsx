@@ -61,7 +61,8 @@ const Home = () => {
       <Navbar toggle={toggle}/> 
       <VideoSection/>
       <AboutSection/>
-      <Link to='/images'>
+      <Portfolio/>
+      <Link to='/images'> 
       <Slider 
       images={[ image1,image2,image3,image4,image5, image6 ]}>
       <H1
@@ -76,7 +77,7 @@ const Home = () => {
       > Click For More 👉</P>
       </Slider>
       </Link>
-      <Portfolio/>
+     
       <Footer/>
     </>
   )
