@@ -20,6 +20,7 @@ export const RightContainer = styled.div`
 height: 100%;
 width: 100%;
 background-color: blue;
+border: 2px solid black;
 `
 
 export const H1 = styled.h1`
