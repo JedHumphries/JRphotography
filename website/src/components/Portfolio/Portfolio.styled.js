@@ -8,8 +8,6 @@ background-color: #EAD29C;
 display: flex;
 align-items: center;
 justify-content: center;
-padding-left: 100px;
-padding-right: 100px;
 `
 
 export const LeftContainer = styled.div`
@@ -18,6 +16,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
+order: 2;
 /* border: 2px solid black;  */
 `
 
@@ -31,6 +30,7 @@ border: 2px solid black;
 export const RightContainer = styled.div`
 height: 100%;
 width: 100%;
+
 `
 
 export const ButtonContainer = styled.div`

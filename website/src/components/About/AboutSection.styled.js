@@ -1,10 +1,25 @@
 import styled from "styled-components";
 
-
-export const AboutContainer = styled.div`
+export const Container = styled.div`
 height: 650px;
+background-color: #EAD29C;
+display: flex;
+align-items: center;
+justify-content: center;
+`
+
+export const LeftContainer = styled.div`
+height: 100%;
 width: 100%;
 background-color: #EAD29C;
+flex-direction: column;
+text-align: center;
+`
+
+export const RightContainer = styled.div`
+height: 100%;
+width: 100%;
+background-color: blue;
 `
 
 export const H1 = styled.h1`
@@ -24,11 +39,12 @@ padding-top: 25px;
 }
 `
 
-export const AboutP = styled.p`
+
+export const P = styled.p`
 color: black;
 font-size: 1.75rem;
 padding: 10px;
-font-family: Stylish;
+/* font-family: Stylish; */
 align-items: center;
 justify-content: center;
 
